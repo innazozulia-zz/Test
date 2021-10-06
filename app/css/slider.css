@@ -1,0 +1,26 @@
+.swiper-button-prev,
+.swiper-button-next {
+  position: static;
+  width: 126px;
+  height: 78px;
+  margin-top: 40px;
+  border: 4px solid #fff;
+  margin-left: 13px;
+  border-radius: 15px;
+  box-shadow:  0 10px 10px rgba(138, 136, 136, 0.25), 0 10px 10px rgba(211, 209, 209, 0.22);
+  z-index: 10;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--swiper-navigation-color, var(--swiper-theme-color));
+}
+.swiper-pagination {
+ position: static;
+ display: flex;
+ margin-left: 50px;
+}
+.swiper-container{
+  width: 100%;
+  height: 100%;
+}
